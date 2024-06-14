@@ -1,11 +1,4 @@
-import { cookies } from "next/headers";
-
-export default function Page({ searchParams }) {
-	
-	const cookieStore = cookies();
-	console.log('searchParams', searchParams);
-	console.log('cookieStore', cookieStore);
-	
+export default function Page() {
   return (
 		<div>
 			<h1>{process.env.FOO_ENV}</h1>
