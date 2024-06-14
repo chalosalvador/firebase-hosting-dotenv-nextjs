@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "production": "chalos-fb-test",
+    "staging": "fb-tools-dev",
+    "default": "chalos-fb-test"
+  }
+}
